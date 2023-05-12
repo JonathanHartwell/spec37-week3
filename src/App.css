@@ -1,0 +1,80 @@
+/* --------- This is CSS Reset Code --------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, input, button, span, div, body, textarea {
+	font-family: 'Inter', sans-serif;
+  }
+
+button {
+	height: 45px;
+	min-width: 115px;
+	font-size: 20px;
+	border: none;
+	border-radius: 10px;
+	background-color: gray;
+	color: skyblue;
+	transition: .5s ease-in-out
+}
+
+button:hover {
+	border-radius: 0%;
+	background-color: skyblue;
+	color: darkcyan
+}
+
+.blue-btn {
+	color: white;
+	background-color: skyblue;
+}
+
+.App {
+	position: relative;
+	top: 0;
+	min-height: 100vh;
+  }
+
+main {
+	padding-bottom: 200px;
+  }
+
+header {
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 100%;
+  }
+
+
+nav {
+	display: flex;
+	align-items: center;
+	margin-left: 5%;
+	gap: 25px;
+	width: 10%;
+	justify-content: space-around;
+}
+

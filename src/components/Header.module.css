@@ -1,0 +1,86 @@
+Header {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+	align-items: center;
+    gap: 25px;
+	background-color: skyblue;
+    
+  }
+
+.nav_btn {
+    color: darkcyan;
+    background-color: azure;
+    transition: all 0.5s ease-in-out;
+    min-width: 150px;
+  }
+
+.nav_btn:hover {
+    border-radius: 0px;
+    scale: 1.15;
+}
+
+h2 {
+    color: black;
+    font-size: 36px;
+  }
+
+h5 {
+    font-size: 20px;
+    color: white;
+  }
+
+footer {
+	height: 150px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: absolute;
+	background-color: grey;
+}
+
+.social_icons {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+  }
+
+.circlecontainer {
+    display:flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+
+.circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  transition: ease-in-out .5s
+}
+
+.circle:hover {
+  background-color: cornflowerblue;
+  scale: 1.1;
+}
+
+.circlecontainer:hover .circle:not(:hover) {
+  scale: .95;
+  filter: saturate(.1);
+}
+
+  .devmnt {
+    transition: 2s ease-in-out;
+  }
+
+  .devmnt:hover {
+    rotate: 90000deg;
+    scale: 15;
+  }

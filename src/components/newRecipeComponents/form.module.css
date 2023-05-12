@@ -1,0 +1,61 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    height: fit-content;
+    margin-bottom: 40px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.inputcontainer {
+    display: flex;
+}
+
+input {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.cookbakedrink {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10%
+}
+
+span {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ingredientsect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    width: 50%;
+    margin: 10px;
+}
+
+
+
